@@ -63,7 +63,7 @@ body{
     color: orange;
 }
 .main-2 p{
-   color: dimgray;;
+   color: dimgray;
 }
 .main-2 .btn{
     text-decoration: none;
@@ -74,4 +74,46 @@ body{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+.Experiences{
+    margin-top: 100px;
+    
+}
+.Experiences .text{
+    font-size: 50px;
+    margin-left: 50px;
+    
+}
+.Experiences .main-wraper{
+    display: flex;
+    background: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+ 
+}
+.Experiences .part-1,
+.Experiences .part-2{
+    margin: 10px 50px;
+    padding: 50px 30px;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
+}
+.Experiences .part-1 h1,
+.Experiences .part-2 h1{
+    font-size: 40px;
+}
+.Experiences .part-1 h3,
+.Experiences .part-2 h3{
+    color: orange;
+}
+.Experiences .part-1 p,
+.Experiences .part-2 p{
+    color: dimgray; 
+}
+.footer{
+    margin-top: 100px;
+    text-align: center;
 }
